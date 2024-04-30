@@ -23,3 +23,10 @@ export type AnnouncementsFilters = {
   offset?: number;
   category?: string;
 };
+
+export type Reactions = {
+  id: string;
+  announcement_id: string;
+  reaction: string;
+  user: string;
+};
